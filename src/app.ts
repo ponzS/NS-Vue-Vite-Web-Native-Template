@@ -3,7 +3,7 @@ import { ImageCacheIt } from "@triniwiz/nativescript-image-cache-it";
 import { initGlobals } from "./globals";
 initGlobals();
 
-import Home from "./components/Home.vue";
+import Home from "./pages/index.vue";
 import { Application, Color, Utils } from "@nativescript/core";
 
 registerElement("ImageCacheIt", () => ImageCacheIt);

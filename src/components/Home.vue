@@ -43,11 +43,11 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <Frame>
-    <Page class="bg-[#251353]">
-      <ActionBar>
+
+  
+      <!-- <ActionBar>
         <Label text="ViteConf 2025" class="font-bold text-lg" />
-      </ActionBar>
+      </ActionBar> -->
 
       <GridLayout rows="auto, *">
         <ImageCacheIt
@@ -69,8 +69,9 @@ onUnmounted(() => {
           >
             Enter Now
           </Button>
+          
         </GridLayout>
       </GridLayout>
-    </Page>
-  </Frame>
+    
+
 </template>
